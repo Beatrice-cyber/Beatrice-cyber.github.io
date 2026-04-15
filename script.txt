@@ -1,0 +1,76 @@
+🌍 Carbon Emissions Tracking Platform
+
+Spring Boot · Google Cloud · Firebase · Full-stack
+
+Built a full-stack platform for a real client (RouteZero) to analyze and track travel-related carbon emissions.
+
+Developed backend services using Spring Boot, deployed on Google Cloud
+Designed scalable data storage using Firebase
+Implemented time-series analytics (weekly, monthly, yearly emissions trends)
+Built transport-level breakdowns to identify major emission sources
+Collaborated in an agile team environment to deliver client-specific features
+
+Result: Delivered a practical dashboard to support sustainability decision-making.
+
+🤖 Distributed Game of Life
+
+Golang · Concurrency · AWS · Distributed Systems
+
+Implemented a distributed version of Conway’s Game of Life with both local parallelism and multi-node execution.
+
+Built concurrent simulation using goroutines for parallel computation
+Designed a distributed system across multiple AWS nodes
+Implemented inter-node communication for synchronizing state
+Explored trade-offs between parallel vs distributed performance
+
+Focus: Distributed computation, concurrency, and system design.
+
+🧠 Multi-Agent Maze Solver
+
+Prolog · Algorithms · Multi-agent Systems
+
+Developed a multi-agent system to explore and solve an initially unknown maze.
+
+Designed multiple agents to explore the maze concurrently
+Implemented greedy exploration strategy with shared environment knowledge
+Visualized agent paths and exploration progress dynamically
+Solved navigation under partial observability
+
+Focus: Algorithm design, multi-agent coordination, and logical programming.
+
+🎨 Computer Graphics Renderer
+
+C++ · Rendering · Graphics Pipelines
+
+Built a rendering system implementing core computer graphics techniques.
+
+Implemented a Cornell Box scene with multiple surface types
+Added Phong and Gouraud shading, reflections, and refractions
+Simulated soft shadows and realistic lighting effects
+Developed from scratch using C++ and graphics principles
+
+Focus: Low-level graphics, rendering pipelines, and mathematical modelling.
+
+🦠 COVID Spread Simulation
+
+Python · Agent-based Modelling · MESA
+
+Modelled the spread of COVID-19 using an agent-based simulation framework.
+
+Built simulation using MESA for agent-based modelling
+Modelled interactions between individuals and infection dynamics
+Explored how parameters affect spread patterns
+
+Focus: Simulation, modelling, and data-driven analysis.
+
+🧍 Pose Detection System (Hackathon)
+
+Python · Computer Vision · Rapid Prototyping
+
+Developed a pose detection prototype during a 24-hour hackathon.
+
+Implemented real-time pose estimation using computer vision techniques
+Collaborated in a team under tight time constraints
+Delivered a working prototype within a single day
+
+Focus: Rapid prototyping, teamwork, and applied computer vision.

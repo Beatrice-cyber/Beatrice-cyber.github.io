@@ -40,8 +40,6 @@
 					<nav id="nav">
 						<ul class="links">
 							<li class="active"><a href="index.html">My projects</a></li>
-							<!-- <li><a href="generic.html">Generic Page</a></li>
-							<li><a href="elements.html">Elements Reference</a></li> -->
 						</ul>
 						<ul class="icons">
 							<li><a href="https://www.linkedin.com/in/zhe-jiang-b29028234/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
@@ -56,13 +54,12 @@
 							<article class="post featured">
 								<header class="major">
 									<h2><a href="#">My projects</a></h2>
-									<p>Theses include many projects I have done over my undergraduate years as well as extra curricular ones.
-										The main project that I have been working on is my CGI project, where I am modelling a coffee shop in bristol.
-									</p>
+									<p>These projects showcase my work in backend systems, distributed computing, and applied machine learning, including applications in sustainability and robotics.
+										</p>
 								</header>
-								<a href="#" class="image main"><img src="images/CM_side.jpg" alt="" /></a>
+								<a href="#" class="image main"><img src="images/pic02.jpg" alt="" /></a>
 								<ul class="actions special">
-									<li><a href="#" class="button large">Full Story</a></li>
+									<li><a href="#" class="button large">Demo</a></li>
 								</ul>
 							</article>
 
@@ -70,73 +67,171 @@
 							<section class="posts">
 								<article>
 									<header>
-										<h2><a href="#">A website counting travel carbon emissons <br /></a></h2>
+										<h2><a href="#">Carbon Emissons Website <br /></a></h2>
+										<p class="tech-stack"> Spring Boot · Google Cloud · Firebase · Full-stack</p>
+
 									</header>
-									<a href="#" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
-									<p>This is a team work done at University of Bristol. Our team used agile development to create a dashboard that helps companies analyze their travel carbon emissions and track progress towards carbon neutrality. 
+									<div class="project-content">
+										
+									<a href="#" class="image fit"><img src="images/TCT.png" alt="" /></a>
+									<!-- <p>This is a team work done at University of Bristol. Our team used agile development to create a dashboard that helps companies analyze their travel carbon emissions and track progress towards carbon neutrality. 
 										We developed the back-end using Spring Boot and hosted it on Google Cloud, with Firebase for both our database and front-end hosting.
 										 This efficient setup allowed us to build a user-friendly platform that contributes positively to environmental sustainability.
 										 Responding to our client RouteZero's specific requirements, we integrated a line chart feature within the dashboard. This tool enables users to view and compare their carbon emissions on a weekly, monthly, and annual basis. Additionally, we developed a detailed page that breaks down emissions by type of transportation, helping users identify the most significant sources of carbon output. This tailored functionality enhances the dashboard's utility in strategic planning and tracking of environmental impact goals.
-										</p>
+										</p> -->
+										<p>Built a full-stack platform for a real client (<b><a href ="https://routezero.com/">RouteZero</a></b>) to analyze and track travel-related carbon emissions.</p>
+										<ul class="project-list">
+										<li>Developed backend services using Spring Boot, deployed on Google Cloud</li>
+										<li>Designed scalable data storage using Firebase</li>
+										<li>Implemented time-series analytics (weekly, monthly, yearly emissions trends)</li>
+										<li>Built transport-level breakdowns to identify major emission sources</li>
+										<li>Collaborated in an agile team environment to deliver client-specific features</li>
+										</ul>
+										<p><b>Result:</b> Delivered a practical dashboard to support sustainability </p>
+										<p class="note">⚠️ This project was developed for a real client and is not publicly available. Additional materials (reports, architecture, and documentation) can be discussed upon request.</p>
+						
 									<ul class="actions special">
-										<li><a href="https://travelcarbontracking.web.app/" class="button">check it out</a></li>
+										<li><a href="https://travelcarbontracking.web.app/" class="button">Demo</a></li>
 									</ul>
+									
+									</div>
 								</article>
 								<article>
 									<header>
-										<h2><a href="#">A Muti-agent maze solver in Prolog<br />
-										</a></h2>
+										<h2>Robot Manipulation</h2>
+									<p class="tech-stack">Pytorch · Deep Learning · VAE</p>
 									</header>
-									<a href="#" class="image fit"><img src="images/pic03.png" alt="" /></a>
-									<p>
+									<a href="#" class="image fit"><img src="images/recon.png"/></a>
+									<div class="project-content">
+										<p>Built a behaviour cloning model to predict robotic arm actions from multimodal inputs</p>
+										<ul>
+											<li> predict from multimodal observations (RGB images, positional and velocity data, joint states)</li>
+											<li>Designed VAE for compact visual representation learning</li>
+											<li>Worked with tensor operations and matrix-based computations underlying deep learning models.</li>
+											<li>Implemented structured training pipeline with half-precision modelling and 
+												experiment tracking using Weights& Biases.</li>
+										</ul>
+										<p class="caption">Reconstruction results from VAE model. 
+										The model captures coarse spatial structure but struggles with fine details, 
+										highlighting limitations of latent compression.</p>
+										<ul class="actions special">
+										<li><a href="https://github.com/Beatrice-cyber/multimodal-behaviour-cloning-vae" class="button">Github Repository </a></li>
+									</ul>
+									</div>
+								</article>
+
+							
+
+
+		
+									<!-- 
 										This is individual work. I developed an algorithm that uses multiple agents to explore a initially hidden maze concurrently.
 										These agents traverse the maze greedily, uncovering its layout until one of them discovers the exit.
 										The maze is structured with black tiles representing impassable walls, green tiles indicating navigable paths and grey tiles are unexplored. Any other colored tiles within the maze represents the agent that has previously explored that area. 
 										This visual setup helps in tracking the agents’ paths and their progress towards solving the maze. The project not only demonstrates my proficiency in Prolog but also showcases my ability to implement complex algorithms for dynamic problem-solving.
-										Press the button for a demo.</p>
-									<ul class="actions special">
-										<li><a href="https://www.youtube.com/watch?v=9aue92khDi4" class="button">Check it out</a></li>
+										Press the button for a demo.-->
+								<article>
+								<header>
+									<h2>Multi-Agent Maze Solver</h2>
+									<p class="tech-stack">Prolog · Algorithms · Multi-agent Systems</p>
+								</header>
+
+								<a href="#" class="image fit">
+									<img src="images/pic03.png" alt="" />
+								</a>
+								<p>Developed a multi-agent system to explore and solve an initially unknown maze.</p>
+
+								<div class="project-content">
+									<ul class="project-list">
+									<li>Designed multiple agents to explore the maze concurrently</li>
+									<li>Implemented greedy exploration with shared environment knowledge</li>
+									<li>Visualized agent paths and exploration dynamically</li>
+									<li>Solved navigation under partial observability</li>
 									</ul>
+									<p><b>Focus:</b> Algorithm design, multi-agent coordination, and logical programming </p>									
+								</div>
+
+								<ul class="actions special">
+									<li><a href="https://www.youtube.com/watch?v=9aue92khDi4" class="button">Demo</a></li>
+								</ul>
 								</article>
+				
 								<article>
 									<header>
-										<h2><a href="#">Game of Life<br />
-									</a> golang</h2>
+										<h2>Game of Life<br /></h2>
+									<p class="tech-stack"> Golang · Concurrency · AWS · Distributed Systems</p>
+
 									</header>
 									<a href="#" class="image fit"><img src="images/gol.png" alt="" /></a>
-									<p>This is a pair programming unit. The British mathematician John Horton Conway devised a cellular automaton named ‘The Game of Life’. 
+									<!-- <p>This is a pair programming unit. The British mathematician John Horton Conway devised a cellular automaton named ‘The Game of Life’. 
 										The game resides on a 2-valued 2D matrix, i.e. a binary image, where the cells can either be ‘alive’ (white) or ‘dead’ (black). 
 										We first wrote code to evolve Game of Life using multiple worker goroutines on a single machine.
 										Secondly, we created an implementation that uses a number of AWS nodes to cooperatively calculate the new state of the Game of Life board, and communicate state between machines over a network.
-									</p>
+									</p> -->
+									<p>Implemented a distributed version of Conway’s Game of Life with both local parallelism and multi-node execution.</p>
+									<div class="project-content">
+									<ul class="project-list">
+									<li>Built concurrent simulation using goroutines for parallel computation</li>
+									<li>Designed a distributed system across multiple AWS nodes</li>
+									<li>Implemented inter-node communication for synchronizing state</li>
+									<li>Explored trade-offs between parallel vs distributed performance</li>
+									</ul>
+									<p><b>Focus: </b>Distributed computation, concurrency, and system design.</p>
 									<ul class="actions special">
 										<li><a href="#" class="button">github repository</a></li>
 									</ul>
+								</div>
 								</article>
+
 								<article>
 									<header>
-										<h2><a href="#">Computer graphics<br />
-										</a>C++</h2>
+										<h2>Computer graphics<br />
+										</h2>
+										<p class="tech-stack">C++ · Rendering · Graphics Pipelines</p>
 									</header>
 									<a href="#" class="image fit"><img src="images/cg.png" alt="" /></a>
-									<p>I explored the he fundamental principles and practices that underlie the graphics APIs. 
+									<!-- <p>I explored the he fundamental principles and practices that underlie the graphics APIs. 
 										The end result is a conell box with multiple textures applied to objects including reflective, refractive surfaces, phong, gouraud shading and soft shadows.
-										All the code are written in C++.  </p>
+										All the code are written in C++.  </p> -->
+									<div class="project-content">
+										<p>Built a rendering system implementing core computer graphics techniques.</p>
+									<ul class="project-list">
+									<li>Implemented a Cornell Box scene with multiple surface types</li>
+									<li>Added Phong and Gouraud shading, reflections, and refractions</li>
+									<li>Simulated soft shadows and realistic lighting effects</li>
+									<li>Developed from scratch using C++ and graphics principles</li>
+							
+									</ul>
+									<p><b>Focus: </b>Low-level graphics, rendering pipelines, and mathematical modelling.</p>
+								</div>
+
+
 									<ul class="actions special">
-										<li><a href="https://youtu.be/zAmo5hsmeS8" class="button">Full Demo</a></li>
+										<li><a href="https://youtu.be/zAmo5hsmeS8" class="button">Demo</a></li>
 									</ul>
 								</article>
 								<article>
 									<header>
-										<h2><a href="#">Modelling the spread of Covid in Python<br /></a></h2>
+										<h2><a href="#">Pneumonia Detection<br /></a></h2>
+										<p class="tech-stack">Python · Computer Vision · Machine Learning</p>
 									</header>
-									<a href="#" class="image fit"><img src="images/mesa.png" alt="" /></a>
-									<p>This is individual work. I modelled the spread of covid by using MESA, a framework for agent modelling in Python.</p>
+									<a href="#" class="image fit"><img src="images/final_PR.png" alt="" /></a>
+									<!-- <p>This is individual work. I modelled the spread of covid by using MESA, a framework for agent modelling in Python.</p> -->
+									<div class="project-content">
+										<ul>
+											<li>Trained CNN for pneumonia classification on imbalanced dataset</li>
+											<li>Observed model bias toward majority class and unstable validation performance</li>
+											<li>Applied class weighting and regularization to improve generalization</li>
+											<li>Analyzed failure cases and trade-offs between sensitivity and specificity</li>
+
+										</ul>
+										<p><b>Focus: </b> Image processing , modelling, and data-driven analysis.</p>
+									</div>
 									<ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
+										<li><a href="#" class="button">Demo</a></li>
 									</ul>
 								</article>
-								<article>
+								<!-- <article>
 									<header>
 										<h2><a href="#">Pose detection<br /></a></h2>
 									</header>
@@ -145,7 +240,7 @@
 									<ul class="actions special">
 										<li><a href="https://github.com/Beatrice-cyber/Engineers-of-Eden" class="button">Check it out</a></li>
 									</ul>
-								</article>
+								</article> -->
 							</section>
 
 					</div>
